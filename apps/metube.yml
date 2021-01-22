@@ -15,7 +15,7 @@
         pgrole: 'metube'
         intport: '8081'
         extport: '4568'
-        image: 'alexta69/metube:latest'
+        image: 'eidanyosoy/metube'
 
     # CORE (MANDATORY) ############################################################
     - name: 'Including cron job'
