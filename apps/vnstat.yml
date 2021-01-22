@@ -7,7 +7,7 @@
         pgrole: 'vnstat'
         intport: '80'
         extport: '2424'
-        image: 'amarston/vnstat-dashboard:latest'
+        image: 'eidanyosoy/vnstat'
     - name: 'Including cron job'
       include_tasks: '/opt/communityapps/apps/_core.yml'
     - name: 'Adding Traefik'
