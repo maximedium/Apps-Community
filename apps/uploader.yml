@@ -72,7 +72,7 @@
     - name: 'Deploying {{pgrole}}'
       docker_container:
         name: '{{pgrole}}'
-        image: 'mrdoob/rccup:latest'
+        image: 'smashingtags/rclone-mergerfs'
         pull: yes
         published_ports:
           - '{{ports.stdout}}{{extport}}:{{intport}}'
