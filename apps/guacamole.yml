@@ -15,7 +15,7 @@
         pgrole: 'guacamole'
         intport: '8080'
         extport: '4822'
-        image: 'linuxserver/guacd'
+        image: 'ghcr.io/linuxserver/guacd'
 
     # CORE (MANDATORY) ############################################################
     - name: 'Including cron job'
